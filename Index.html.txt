@@ -2,3 +2,129 @@ Hola Mundo
 este es el segundo cambio
 tercera linea
 cuarta linea
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+</head>
+<body>
+
+<style>
+      header {
+    border: solid 1px red;
+    text-align: center;
+    border: radius 5px;
+    background: #53d7d7;
+    color: #705e57;
+    height: 56px;
+    padding-top: 29px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+header:hover{
+    background: darkblue;
+    height: 100px;
+}
+
+nav {
+    border: solid 1px #3f53cd;
+    text-align: center;
+    border: radius 5px;
+    border-radius FONT-WEIGHT: 500;
+    background: #61d753;
+    color: #705e57;
+    height: 34px;
+    padding-top: -1px;
+    border-radius: 19px;
+    margin-top: 38px;
+}
+
+
+section {
+    border: solid 60%;
+    border: solid 3px;
+    width: 60%
+}
+
+footer {
+    background: #2ad5d5;
+    text-align: center;
+    margin-top: 11px;
+    border-radius: 8px;
+    font-size: small;
+    color: rgb(39, 36, 36);
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#holasoyid{
+    color:rgb(36, 22, 236)
+}
+
+#holasoyid2{
+    color:darkgreen
+
+}
+
+.fondo{
+    font-style: italic;
+    background: rgb(32, 165, 154);
+    text-align: center;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.tamano_65{
+    font-size: 65px;
+}
+.tamano_40{
+    font-size: 40px
+}
+.tamano_55{
+    font-size: 55px
+}
+
+
+</style>
+
+<header>
+    aqui van los logos
+</header>
+
+<nav>
+    aqui van los menus
+</nav>
+
+<section class="centrado">
+    Hola Mundo
+   
+    <h1 style="color: rgb(245, 14, 14);"> Hola Mundo </h1>
+    <h2 style="color: chartreuse;"> Hola Mundo </h2>
+    <h3 style="color: cyan;"> Hola Mundo </h3>
+    <h4 style="color: rgb(106, 103, 122);" class="tamano_55"> Hola Mundo </h4> 
+
+</section>
+<footer>
+    Pie de pagina
+
+
+
+</footer>
+
+<div id="holasoyid" class="fondo centrado tamano_65">
+    +
+</div>
+
+<div id="holasoyid2" class="fondo centrado tamano_40">
+    -
+</div> 
+
+</body>
+</html>
