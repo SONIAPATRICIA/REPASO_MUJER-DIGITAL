@@ -1,0 +1,52 @@
+
+.btn {
+    width: 116px;
+    border: solid 1px;
+    height: 51px;
+    text-align: center;
+    font-size: 22px;
+    color: #f5e9e9;
+    background: #4caf50;
+    font-style: italic;
+    cursor: pointer;
+    padding-top: 17px;
+    border: radius 6px;
+    border-radius: 29px;
+    transition: all 9s ease-in-out;
+}
+.btn:hover{
+    background: chartreuse;
+    width: 200px;
+    height: 100px;
+}
+table,tr,th,td {
+    border: solid 1px rgb(223, 19, 19);
+}
+td#color\ especial {
+            background: aqua;
+        }
+
+input.txtcaja{
+    border:solid 2px;
+    border-radius: 9px;
+    font-size: 10px;
+    background: rgb(185, 203, 236);
+    transition: all 9s ease-in-out;
+}
+input.txtcaja:hover{
+    background: rgb(245, 117, 32);
+    color: darkgrey;
+}
+
+img {
+    width: 114px;
+    height: 131px;
+    position: absolute;
+    top: 36px;
+    left: 323px;
+}
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index/index.css">
+</head>
+<body>
+    <script>
+
+       var valor1 = 0;
+       var valor2 = 0;
+       var nombre = "John";
+       var apellido = "castiblanco"
+       
+       var multiplica = function(){
+           console.log(valor1*valor2)
+       }
+       var suma = function(){
+           console.log(valor1 + valor2)
+       }
+
+     
+       var resta = function(){
+           console.log(valor1-valor2)
+       }
+
+       var division = function(){
+           console.log(valor1/valor2)
+       }
+       
+       var nombrecompleto = function(){
+           console.log(nombre+"  "+apellido)
+       }
+
+
+       var obtener = function(){
+        console.log("obteniendo datos")
+        
+        var a = document.getElementById("prueba1").value
+        var b = document.getElementById("prueba2").value
+        valor1 = parseInt (a);
+        valor2 = parseInt (b);
+       }
+
+      
+
+
+    </script>
+
+<input type="text" id="prueba1">
+<input type="text" id="prueba2">
+
+
+
+
+<div onclick="multiplica()"> multiplicar </div>
+<div onclick="suma()"> sumar </div> 
+<div onclick="resta()"> Restar </div>
+<div onclick="division()"> Dividir </div>
+<div onclick="nombrecompleto()"> nombrecompleto </div>
+<div onclick="obtener()">obtener contenido</div>
+
+        
+
+
+
+  
+    
+</body>
+</html>

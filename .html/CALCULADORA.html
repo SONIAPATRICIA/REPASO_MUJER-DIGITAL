@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+
+<body>
+
+
+<style>
+    html {
+    border: solid 20px red;
+    height: 527px;
+    background: aqua;
+    border-radius:20px
+}
+
+div {
+    position: relative;
+    top: -211px;
+    left: 284px;
+    border: solid 1px;
+    width: 130px;
+    height: 26px;
+    border-radius:12px;
+    cursor: pointer;
+   
+    
+
+
+       }
+
+       input#prueba1 {
+    height: 58px;
+    background: cornflowerblue;
+    border-radius:12px
+       }
+       input#prueba2 {
+    height: 58px;
+    background: rgb(77, 99, 228);
+    border-radius:12px
+       }
+
+
+
+</style>
+
+<img src="https://w7.pngwing.com/pngs/844/489/png-transparent-multiplication-table-mathematics-multiplication-sign-maths-child-boy-fictional-character-thumbnail.png" width="150px"height=250px > 
+   
+
+
+
+
+   
+    <script>
+
+        var valor1 = 0;
+        var valor2 = 0;
+        
+        var multiplica = function(){
+            console.log(valor1*valor2)
+        }
+        var suma = function(){
+            console.log(valor1 + valor2)
+        }
+        var resta = function(){
+            console.log(valor1-valor2)
+        }
+        var division = function(){
+            console.log(valor1/valor2)
+        }
+        var obtener = function(){
+         console.log("obteniendo datos")
+         
+         var a = document.getElementById("prueba1").value
+         var b = document.getElementById("prueba2").value
+         valor1 = parseInt (a);
+         valor2 = parseInt (b);
+        }
+ 
+       
+ 
+ 
+     </script>
+ 
+ <input type="text" id="prueba1">
+ <input type="text" id="prueba2">
+ 
+ 
+ 
+ 
+ <div onclick="multiplica()"> MULTIPLICAR </div>
+ <div onclick="suma()"> SUMAR </div> 
+ <div onclick="resta()"> RESTAR </div>
+ <div onclick="division()"> DIVIDIR </div>
+ <div onclick="obtener()">RESULTADO</div>
+ 
+             
+</body>
+</html>
